@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgba(0, 225, 225, 0);
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    color: rgb(202, 20, 20);
+    padding: 30px;
+}
+nav ul li a{
+    
+    justify-content: space-between;
+    margin:20px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(253, 253, 253);
+    
+}
+
+video{
+    width: 100%;
+    margin-top: -80px;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+span{
+    color: red;
+}
+
+
+nav ul li a:hover{
+    color: red;
+}
+#home{
+    width: 100%;
+    height: 500px;  
+    display: flex; 
+    flex-direction: column;
+    padding-top: -50px;
+}
+
+
+
+#home::before{
+    content: "";
+    background-image: url('./image/peter_parker_amazing_spider_man-other.jpg');
+    background-size: cover;
+    width: 92.57%;
+    height: 400px;
+    padding: 50px;
+
+}
+
+.main{
+position: absolute;
+padding: 30px;
+width: 500px;
+margin-top: 200px;
+color: azure;
+border: 2px ridge rgba(0, 0, 0, 0.911);
+box-shadow: 4px 5px 8px 4px red;
+margin-left: 20px;
+}
+
+.png{
+    display: flex;
+    width: 100%;
+    background-color: rgba(22, 24, 32, 0.945);
+    height: -40px;
+    
+}
+
+.png img{
+    display: flex;
+    width: 200px;
+    padding: 50px;
+    height: 200px;
+}
+.png p{
+    
+    text-align: justify;
+    padding: 10px;
+    width: px;
+    color: antiquewhite;
+    
+}
+.png h3{
+    padding: 10px;
+    color: antiquewhite;
+}
+
+
+.more{
+
+    background-color: rgb(55, 148, 224);
+    color: rgb(156, 10, 0);
+    border-radius: 2px;
+    padding: 4px;
+    text-decoration: none;
+    margin-left: 800px;
+
+}
+.main h2:hover{
+    color: rgb(241, 178, 18);
+}
+#villain{
+    background-image: url(./image/new_amazing_spider_man-widescreen_wallpapers.jpg);
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    
+}
+
+#villain h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+}
+.col1{
+    justify-content: space-between;
+    background-color: rgba(8, 49, 109, 0.616);
+    text-align: center;
+    padding: 10px;
+    margin-left: 80px;
+    width: 200px;
+}
+.col1:hover{
+    box-shadow: 2px 3px 4px 5px red;
+}
+.col2{
+    justify-content: space-between;
+    background-color: rgba(8, 49, 109, 0.616);
+    text-align: center;
+    padding: 10px;
+    margin-left: 80px;
+    width: 200px;
+}
+.col2:hover{
+    box-shadow: 2px 3px 4px 5px red;
+}
+.col3{
+    justify-content: space-between;
+    background-color: rgba(8, 49, 109, 0.616);
+    text-align: center;
+    padding: 10px;
+    margin-left: 80px;
+    width: 200px;
+}
+.col3:hover{
+    box-shadow: 2px 3px 4px 5px red;
+}
+.col4{
+    justify-content: space-between;
+    background-color: rgba(8, 49, 109, 0.616);
+    text-align: center;
+    padding: 10px;
+    margin-left: 80px;
+    width: 200px;
+}
+.col4:hover{
+    box-shadow: 2px 3px 4px 5px red;
+}
+
+.col1 img{
+    width: 150px;
+}
+.col2 img{
+    width: 150px;
+}
+.col3 img{
+    width: 150px;
+}
+.col4 img{
+    width: 150px;
+}
+p{
+    color:azure;
+}
+h3{
+    color: azure;
+}
+h2{
+    color: azure;
+}
+
+
+
+
+
+
+
+
+#slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 6s slider infinite;
+}
+
+#slider figure:hover {
+	/*animation- play-state: paused; enable for pause on hover*/
+}
+#slider figure img {
+	width: 33.333333333%;
+	height : 100%;
+	float: left;
+}
+
+
+
+.movies{
+    background-color: black;
+    height: 1100px;
+}
+
+.movies h2{
+    color: azure;
+    text-align: center;
+}
+
+form{
+    width: 500px;
+    padding: 20px;
+    margin-left: 500px;
+}
+
+.input{
+    width: 400px;
+    margin: 10px;
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 73, 70);
+}
+
+.contact{
+    margin-top: -50px;
+    
+    height: 500px;
+    background-image: url(https://i.pinimg.com/736x/f8/f6/f6/f8f6f6c16860ff9e6cc545def0535ff6.jpg);
+}
+.contact h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+@media screen and (max-width:600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+    
+ 
